@@ -1,0 +1,35 @@
+name: random_joke_generator
+description: Random joke generator app using external API
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  provider: ^6.0.0
+  share_plus: ^7.0.0
+  lottie: ^2.4.0
+  google_fonts: ^6.0.0
+  animations: ^2.0.7
+  flutter_clipboard_manager: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_linter: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/images/
